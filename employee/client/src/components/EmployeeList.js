@@ -94,7 +94,7 @@ class EmployeeList extends Component {
                                     <th scope="col">Email</th>
                                     <th scope="col" >Gender</th>
                                     <th scope="col" >Phone</th>
-                                    <th scope="col" >salary</th>
+                                    {/* <th scope="col" >salary</th> */}
 
                                 </thead>
                                 <tbody> {
@@ -124,9 +124,9 @@ class EmployeeList extends Component {
                                             <td>{
                                                 employee.contactNo
                                             }</td>
-                                            <td>{
+                                            {/* <td>{
                                                 employee.salary
-                                            }</td>
+                                            }</td> */}
                                             <td>  
                                                 <a href={`/employee/edit/${employee._id}`} className="btn-edit">Update</a>  
                                             </td>
