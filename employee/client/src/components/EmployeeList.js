@@ -130,7 +130,6 @@ class EmployeeList extends Component {
                                             <td>  
                                                 <a href={`/employee/edit/${employee._id}`} className="btn-edit">Update</a>  
                                             </td>
-
                                             <td onClick={
                                                 () => this.onDelete(employee._id)
                                             }>
